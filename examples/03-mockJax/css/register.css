@@ -1,0 +1,11 @@
+.tip .message {
+	font-weight: bold;
+}
+
+span.show {
+	display: inline;
+}
+
+span.hide {
+	display: none;
+}

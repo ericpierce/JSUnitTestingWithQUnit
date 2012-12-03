@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="../../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/register.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<form id="registerForm" class="form-horizontal" method="post" action="">
+						<fieldset>
+							<legend>Register</legend>
+							<div class="control-group">
+								<label class="control-label" for="userName">User Name</label>
+								<div class="controls">
+
+									<!-- UserName input -->
+									<input  name="userName" maxlength="100" placeholder="Enter a user name..." type="text" class="input-large" id="userName" />
+
+									<!-- UserName tip -->
+									<i class="tipIcon"></i>
+									<span class="tipMessage"></span>
+
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="password">Password</label>
+								<div class="controls">
+									<!-- Password input -->
+									<input 	name="password" maxlength="100" placeholder="Enter a password..." type="password" class="input-large" id="password" />
+									<!-- Password tip -->
+									<i class="tipIcon"></i>
+									<span class="tipMessage"></span>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="password_retype">Password (retype)</label>
+								<div class="controls">
+									<!-- Re-Password input -->
+									<input 	name="password_retype" maxlength="100" placeholder="Retype password..." type="password" class="input-large" id="password_retype" />
+									<!-- Re-Password tip -->
+									<i class="tipIcon"></i>
+									<span class="tipMessage"></span>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="blah">Blah</label>
+								<div class="controls">
+									<!-- Blah input -->
+									<input 	name="blah" maxlength="100" placeholder="Blah blah blah..." type="text" class="input-large" id="blah" />
+									<!-- Blah tip -->
+									<i class="tipIcon"></i>
+									<span class="tipMessage"></span>
+								</div>
+							</div>
+							<div class="control-group">
+								<div class="controls">
+									<input type="submit" class="btn" />
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- JS lib includes -->
+		<script src="../../lib/jquery-1.8.2.min.js"></script>
+		<script src="../../lib/bootstrap.min.js"></script>
+		<script src="../../lib/bootstrap-tooltip.js"></script>
+
+		<!-- Our library to unit test -->
+		<script src="../lib/user.js"></script>
+	</body>
+</html>

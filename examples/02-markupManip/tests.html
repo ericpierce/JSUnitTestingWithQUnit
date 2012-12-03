@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QUnit - Markup Manip (user.js)</title>
+	<link rel="stylesheet" href="../css/qunit-1.10.0.css">
+</head>
+<body>
+	<div id="qunit"></div>
+	<div id="qunit-fixture">
+
+		<!-- UserName input -->
+		<input  name="userName" maxlength="100" placeholder="Enter a user name..." type="text" class="input-large" id="userName" />
+
+		<!-- UserName tip -->
+		<i class="tipIcon"></i>
+		<span class="tipMessage"></span>
+
+	</div>
+
+	<!-- Unit test lib -->
+	<script src="../lib/qunit-1.10.0.js"></script>
+
+	<!-- Target script dependency -->
+	<script src="../lib/jquery-1.8.2.min.js"></script>
+
+	<!-- Target script for unit tests -->
+	<script src="./lib/user.js"></script>
+
+	<!-- Unit tests -->
+	<script src="./tests.js"></script>
+</body>
+</html>
